@@ -1,0 +1,10 @@
+{
+  "baseline_id": "signal2copy-2026-11-18-v1",
+  "target": "Observable current product functions through FB-033; different code and visual design allowed",
+  "input_contract_sha256": "26df19c8f3a21a2c436aa57b44f241d0dfb3d101356043e95844bc5595b19c01",
+  "fixture": "Unchanged synthetic v5 siblings plus optional source-free protocol6 FX wrapper; no original application code",
+  "current_candidate_scope": "Guided local-to-Cloudflare synthetic delivery, with reusable runtime, broker fixtures and deployment assets.",
+  "validation": "Retained synthetic local and Cloudflare evidence plus isolated local live Exness role, managed stream, exact affiliation, retained restart and execution-denial observations. Demo orders and native cloud deployment remain unverified.",
+  "release_kind": "Guided synthetic delivery plus native read-only onboarding and verification",
+  "release_version": "1.1.0"
+}
