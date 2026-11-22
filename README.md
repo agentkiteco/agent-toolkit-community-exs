@@ -26,5 +26,15 @@ npx skills add agentkiteco/agent-toolkit-community-exs --skill signal2copy --age
 
 [Getting started](skills/signal2copy/guides/START.md) · [Copyable prompts](skills/signal2copy/guides/PROMPTS.txt) · [Capabilities and limits](skills/signal2copy/references/release-status.md)
 
+## Trading Challenge
+
+[Trading Challenge](skills/trading-challenge/SKILL.md) is an instruction-only skill for building an Exness trading competition with separate organizer/trader OAuth, verified account eligibility, exact closed-deal USD profit rankings, a public leaderboard, and scheduled updates. It includes nine reference documents covering implementation, API contracts, authorization, validation, and optional Cloudflare deployment; it does not contain a prebuilt application.
+
+```sh
+npx skills add agentkiteco/agent-toolkit-community-exs --skill trading-challenge --agent codex
+```
+
+[Skill specification](skills/trading-challenge/SKILL.md) · [Contest rules](skills/trading-challenge/references/challenge-rules.md) · [Validation](skills/trading-challenge/references/validation.md)
+
 [Development](.github/docs/development.md) · [Skill template](.github/templates/example/SKILL.md) · [MIT license](LICENSE)
 
