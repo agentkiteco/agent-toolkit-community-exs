@@ -1,4 +1,0 @@
-interface:
-  display_name: "Build Signal2Copy"
-  short_description: "Build Signal2Copy in guided, usable increments"
-  default_prompt: "Use $build-signal2copy to guide me through Signal2Copy, starting with a working local mock demonstration and requesting later setup only when needed."

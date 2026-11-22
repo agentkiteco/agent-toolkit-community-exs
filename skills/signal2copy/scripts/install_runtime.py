@@ -34,7 +34,7 @@ def install(app_dir):
         for name, text in sources.items():
             (prepared / name).write_text(text, encoding='utf-8')
         (prepared / 'RUNTIME_MANIFEST.json').write_text(json.dumps({
-            'skill': 'build-signal2copy', 'files': hashes,
+            'skill': 'signal2copy', 'files': hashes,
             'scope': 'Native core; host authentication, storage, admission, controls and UI integration required',
             'live_acceptance': False,
         }, indent=2) + '\n', encoding='utf-8')

@@ -1,4 +1,4 @@
-# Build Signal2Copy 1.2.0 — verified delivery scope
+# Signal2Copy 1.2.0 — verified delivery scope
 
 This release retains the verified synthetic cloud track and adds a guided broker-backed demo milestone with live reads and one local demo copying lifecycle. It includes the frozen functional specification, reusable runtime and fixtures, deployment scaffold and English guide templates. Codex builds the application in the recipient's workspace. The full native product remains a broader implementation target.
 

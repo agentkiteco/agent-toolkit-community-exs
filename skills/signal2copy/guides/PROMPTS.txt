@@ -1,0 +1,26 @@
+SIGNAL2COPY FIRST-USE PROMPTS - 1.2.0
+
+Use one prompt at a time. Attach the downloaded ZIP for prompt 1, or replace "the attached ZIP" with its actual local file path. Later prompts assume the skill is installed or its SKILL.md path has been supplied.
+
+1. INSTALL THE SKILL ONLY
+
+Install the signal2copy skill from the attached ZIP. Preserve any existing copy, tell me the installed path and version, and stop after installation. Do not create the application yet.
+
+2. BUILD THE FIRST LOCAL DEMONSTRATION
+
+Use $signal2copy to create Signal2Copy in a new project in this workspace. Start with a working local demonstration using mock data only. I do not have Exness keys or Cloudflare set up. Propose a short plan and build the first local milestone. Show me the local URL, demo steps and guides. Stop after that milestone and recommend one next action.
+
+3. CONTINUE THE SAME LOCAL PROJECT
+
+Use $signal2copy to continue the existing Signal2Copy project. Read BUILD_STATE.md and inspect the current files and processes. Reuse recorded decisions, restore the local demonstration if needed, and continue the next agreed local step. Keep mock data only and tell me what works and what comes next.
+
+4. DEPLOY LATER, WHEN THE LOCAL FOUNDATION WORKS
+
+Use $signal2copy to deploy the existing Signal2Copy application to my Cloudflare account in a new isolated installation. Reuse recorded answers, ask only for missing target parameters, explain the deployed functional scope, and preserve existing installations and encryption keys. Use synthetic accounts only. Verify the running app, populated checkpoint restore and owner access. Give me the URL, updated English guides, and the restart and backup instructions. Continue authorized checks without asking me to confirm each step.
+
+5. VERIFY EXNESS ACCESS IN READ-ONLY MODE
+
+Use $signal2copy to continue the existing project with a separate native read-only installation. Reuse the authorized encrypted account keys through private tooling if available. Ask only for missing account selection or Gateway details. Verify provider capability, the selected source and investor reads, exact selected-account affiliation where required, read-stream readiness, restart retention, and the Start denial. Record what passed and what is pending. Do not send broker trading requests.
+
+6. Verify the broker-backed demo
+Use the signal2copy skill to continue my existing project. Run one isolated broker-backed demo after verifying that both selected accounts are demo, have no positions or orders, and are outside existing copying. Use the current isolated partner filter setting. Walk me through any missing private setup. Verify an exact 1:1 copy, Stop and both final broker snapshots. Keep credentials in private app storage and record only sanitized results. After local verification, help me check the same build on a separate Cloudflare Worker in read-only mode.

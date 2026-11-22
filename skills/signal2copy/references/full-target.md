@@ -2,7 +2,7 @@
 
 ## Authority and scope
 
-This is the behavior target for the next `build-signal2copy` skill, approved for baseline preparation on18November2026. It consolidates the current Signal2Copy product, including implemented changes through FB-033. It does not update skill0.3.5 or assert that a new generated application exists. Use feature-map.md for coverage, workflow.md for the guided increments and baseline.json for provenance. This bundled reference is self-contained; original product files are not required.
+This is the behavior target for the next `signal2copy` skill, approved for baseline preparation on18November2026. It consolidates the current Signal2Copy product, including implemented changes through FB-033. It does not update skill0.3.5 or assert that a new generated application exists. Use feature-map.md for coverage, workflow.md for the guided increments and baseline.json for provenance. This bundled reference is self-contained; original product files are not required.
 
 For this successor, this consolidated contract supersedes conflicting historical prose in the November10 kit and product change log. Historical artifacts/results remain valid for their own versions. Subsequent product changes do not silently move this target: record a new explicit baseline revision and its delta.
 

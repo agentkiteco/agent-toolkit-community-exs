@@ -1,11 +1,11 @@
 ---
-name: build-signal2copy
+name: signal2copy
 description: Guide a client through creating Signal2Copy from its functional specification in useful increments, with local execution, recipient-owned Cloudflare deployment and English provider/investor guides. Use for a new independent build or continuation, not maintenance of the reference production installation.
 metadata:
   version: 1.2.0
 ---
 
-# Build Signal2Copy
+# Signal2Copy
 
 Create one application and guide the client through its development. The target is the frozen 18 November 2026 Signal2Copy behavior through FB-033: [feature map](references/feature-map.md) and [full specification](references/full-target.md). Match functions and decisions; identical source code or pixels are unnecessary. Read [release status and limits](references/release-status.md) before presenting guarantees. This is a reusable build specification, not a prebuilt production trading app.
 

@@ -6,17 +6,17 @@ You need this ZIP and a Codex workspace. The skill guides Codex while it writes 
 
 Attach the ZIP, or give Codex its local file path, and send:
 
-> Install the build-signal2copy skill from the attached ZIP. Preserve any existing copy, tell me the installed path and version, and stop after installation. Do not create the application yet.
+> Install the signal2copy skill from the attached ZIP. Preserve any existing copy, tell me the installed path and version, and stop after installation. Do not create the application yet.
 
-Install the inner **build-signal2copy** folder, with SKILL.md directly inside it, not the outer kit folder. Use one supported skill location; avoid installing duplicate versions. For a project-scoped manual setup, the folder is `.agents/skills/build-signal2copy/`. Codex detects skill changes; refresh the skill list or open a new conversation if it does not appear. [Official skill setup documentation](https://learn.chatgpt.com/docs/build-skills).
+Install the inner **signal2copy** folder, with SKILL.md directly inside it, not the outer kit folder. Use one supported skill location; avoid installing duplicate versions. For a project-scoped manual setup, the folder is `.agents/skills/signal2copy/`. Codex detects skill changes; refresh the skill list or open a new conversation if it does not appear. [Official skill setup documentation](https://learn.chatgpt.com/docs/build-skills).
 
-If installation is unavailable, extract the kit and supply the exact local path to build-signal2copy/SKILL.md in the next request. This uses the file directly and is not a claim that it was installed.
+If installation is unavailable, extract the kit and supply the exact local path to signal2copy/SKILL.md in the next request. This uses the file directly and is not a claim that it was installed.
 
 ## 2. Build the first local demonstration
 
 Open the intended new project workspace, then send:
 
-> Use $build-signal2copy to create Signal2Copy in a new project in this workspace. Start with a working local demonstration using mock data only. I do not have Exness keys or Cloudflare set up. Propose a short plan and build the first local milestone. Show me the local URL, demo steps and guides. Stop after that milestone and recommend one next action.
+> Use $signal2copy to create Signal2Copy in a new project in this workspace. Start with a working local demonstration using mock data only. I do not have Exness keys or Cloudflare set up. Propose a short plan and build the first local milestone. Show me the local URL, demo steps and guides. Stop after that milestone and recommend one next action.
 
 If that workspace already has unrelated files, Codex should use a separate project directory and tell you its path. You do not need to choose a framework or provide live credentials to begin.
 

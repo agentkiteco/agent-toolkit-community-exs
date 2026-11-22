@@ -1,4 +1,4 @@
-# Build Signal2Copy 1.2.0 validation
+# Signal2Copy 1.2.0 validation
 
 The package covers staged development, the retained synthetic deployment track and one independently verified local Exness demo lifecycle. It includes an English walkthrough for each role. The assembled app was also deployed to an isolated Cloudflare Worker in native read-only mode.
 
