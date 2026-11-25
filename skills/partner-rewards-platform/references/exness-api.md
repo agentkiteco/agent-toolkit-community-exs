@@ -1,8 +1,8 @@
 # Exness API — endpoints used and known gotchas
 
 Host `api.exness.com`. OpenAPI specs:
-- Partnership public OpenAPI specification: partnership.public.yaml.
-- Payments public OpenAPI specification: payments.public.yaml.
+- https://www.exness-api.com/openapi/partnership.public.yaml
+- https://www.exness-api.com/openapi/payments.public.yaml
 
 ## Signing (sign_version 1, Ed25519) — implemented in `cloud/app/src/exness.js`
 
