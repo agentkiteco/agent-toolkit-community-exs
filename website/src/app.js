@@ -12,7 +12,7 @@ async function copy(value) {
   catch { notify('Clipboard unavailable. Select the text and copy it manually.'); }
 }
 function command() {
-  $('#install-command').textContent = `npx skills add ${repo} --skill example --agent ${$('#agent').value}`;
+  $('#install-command').textContent = `npx skills add ${repo} --skill partner-pulse --agent ${$('#agent').value}`;
 }
 // Build the preview with DOM text nodes. Repository content is never inserted as HTML.
 function inline(parent, text, source) {
@@ -70,7 +70,7 @@ function setView(view) {
 }
 function openEntry(entry) {
   current=entry;
-  $('#detail-type').textContent = entry.kind + ' / example collection';
+  $('#detail-type').textContent = entry.kind + ' / Agent Toolkit';
   $('#detail-title').textContent=entry.name;
   $('#detail-description').textContent=entry.description;
   $('#detail-body').textContent=entry.body;
@@ -125,6 +125,10 @@ command();
 fetch(document.body.dataset.catalog || './catalog.json').then(response=>{
   if(!response.ok)throw new Error('Catalog request failed');
   return response.json();
-}).then(data=>{entries=data;render();}).catch(()=>{
+}).then(data=>{entries=data;
+  for (const button of document.querySelectorAll('[data-kind]')) {
+    button.hidden = button.dataset.kind !== 'all' && !entries.some(entry => entry.kind === button.dataset.kind);
+  }
+  render();}).catch(()=>{
   $('#result-count').textContent='The collection could not load. Refresh the page or browse the source on GitHub.';
 });

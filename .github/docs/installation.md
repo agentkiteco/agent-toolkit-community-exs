@@ -2,12 +2,12 @@
 
 ## Skills
 
-Use the commands in the README, or copy the whole `skills/example/` directory:
+Use the commands in the README, or copy the whole `skills/partner-pulse/` directory:
 
 | Agent | Project location | User location |
 | --- | --- | --- |
-| Codex | `.agents/skills/example/` | `~/.agents/skills/example/` |
-| Claude Code | `.claude/skills/example/` | `~/.claude/skills/example/` |
+| Codex | `.agents/skills/partner-pulse/` | `~/.agents/skills/partner-pulse/` |
+| Claude Code | `.claude/skills/partner-pulse/` | `~/.claude/skills/partner-pulse/` |
 
 Keep the entire folder, including references and assets. For ChatGPT and other interfaces, use the product's supported skill or plugin installation flow; this repository does not claim automatic installation. The Skills CLI is a separate third-party tool, not an official OpenAI or Anthropic installer.
 
@@ -25,4 +25,4 @@ Subsequent pushes to `main` run validation and deployment. Pull requests run val
 
 ## Compatibility
 
-The example has valid Agent Skills metadata and self-contained relative resources. Local validation and static build checks are automated. Interactive invocation in Claude Code, Codex, and ChatGPT has not been tested. No plugin or marketplace manifest is included yet.
+The skills use Agent Skills metadata and self-contained relative resources. Local validation and static build checks are automated. Interactive invocation in Claude Code, Codex, and ChatGPT has not been tested. No plugin or marketplace manifest is included yet.

@@ -7,14 +7,12 @@ Portable skills, prompts, and instructions for AI agents.
 | Collection | Contents |
 | --- | --- |
 | [Skills](skills/) | Self-contained agent workflows |
-| [Prompts](prompts/) | Copyable request templates |
-| [Instructions](instructions/) | Reusable rules |
 
 ```sh
-npx skills add agentkiteco/agent-toolkit-community-exs --skill example --agent claude-code
+npx skills add agentkiteco/agent-toolkit-community-exs --skill partner-pulse --agent claude-code
 ```
 
-Replace `claude-code` with `codex` for Codex. Uses the third-party [Skills CLI](https://github.com/vercel-labs/skills). The `example` entries are illustrative.
+Replace `claude-code` with `codex` for Codex. Uses the third-party [Skills CLI](https://github.com/vercel-labs/skills).
 
 ## Signal2Copy
 

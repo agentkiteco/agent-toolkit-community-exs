@@ -28,5 +28,8 @@ class CatalogTests(unittest.TestCase):
         self.write(name='other')
         with self.assertRaises(ValueError): read_entry(self.path,'skill',self.root)
     def test_real_catalog(self):
-        self.assertEqual({e['kind'] for e in collect()},{'skill','prompt','instruction'})
+        entries=collect()
+        self.assertTrue(any(e['kind']=='skill' for e in entries))
+        self.assertTrue({e['kind'] for e in entries} <= {'skill','prompt','instruction'})
+        self.assertNotIn('example',{e['name'] for e in entries})
 if __name__=='__main__': unittest.main()
