@@ -1,0 +1,4 @@
+# Local runtime only. start-local.sh generates this value if .dev.vars is absent.
+# Generate a 32-byte encryption key with node:crypto randomBytes(32).toString('hex').
+STUDIO_CREDENTIALS_KEY=replace-with-generated-64-hex-characters
+# Enter Exness API credentials through Settings; never commit them here.
