@@ -1,0 +1,1 @@
+{"name":"partner-rewards-studio","private":true,"scripts":{"build":"node scripts/build-hosted.mjs"}}
