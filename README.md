@@ -36,12 +36,12 @@ npx skills add agentkiteco/agent-toolkit-community-exs --skill trading-challenge
 
 [Skill specification](skills/trading-challenge/SKILL.md) · [Contest rules](skills/trading-challenge/references/challenge-rules.md) · [Validation](skills/trading-challenge/references/validation.md)
 
-## Partner Rewards Platform
+## Client Welcome Bonus
 
-[Partner Rewards Platform](skills/partner-rewards-platform/SKILL.md) builds a private Exness partner dashboard with encrypted API credentials, promotions, client qualification and rewards reporting. It bundles an application template and requires implementation and verification of unattended background scheduling; payments are disabled.
+[Client Welcome Bonus](skills/client-welcome-bonus/SKILL.md) builds a private Exness partner dashboard with encrypted API credentials, promotions, client qualification and rewards reporting. It bundles an application template and requires implementation and verification of unattended background scheduling; payments are disabled.
 
 ```sh
-npx skills add agentkiteco/agent-toolkit-community-exs --skill partner-rewards-platform --agent codex
+npx skills add agentkiteco/agent-toolkit-community-exs --skill client-welcome-bonus --agent codex
 ```
 
 [Development](.github/docs/development.md) · [Skill template](.github/templates/example/SKILL.md) · [MIT license](LICENSE)

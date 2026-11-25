@@ -1,9 +1,9 @@
 ---
-name: partner-rewards-platform
-description: Build or update Partner Rewards Studio, a private Exness partner dashboard with promotions for first deposits or verification, clients, rewards, unattended background qualification and trading analytics. Use for requests to create, reproduce, publish or fix this partner rewards platform. Reuse the bundled working template, with API key and secret entered in Settings, encrypted server storage and owner-only hosting access.
+name: client-welcome-bonus
+description: Build or update Client Welcome Bonus, a private Exness partner dashboard with promotions for first deposits or verification, clients, rewards, unattended background qualification and trading analytics. Use for requests to create, reproduce, publish or fix this client welcome bonus dashboard. Reuse the bundled working template, with API key and secret entered in Settings, encrypted server storage and owner-only hosting access.
 ---
 
-# Partner Rewards Studio
+# Client Welcome Bonus
 
 Copy the bundled template; do not rewrite the app from scratch. Read [product.md](references/product.md) before changing behavior, [hosting.md](references/hosting.md) before publishing, and [exness-api.md](references/exness-api.md) when working with the Exness client.
 
