@@ -1,0 +1,4 @@
+interface:
+  display_name: "Partner Pulse"
+  short_description: "Build a private Exness partner analytics dashboard"
+  default_prompt: "Use $partner-pulse to build a private portfolio dashboard with verified Exness MCP data and client follow-up drafts."
