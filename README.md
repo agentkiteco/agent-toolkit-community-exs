@@ -42,5 +42,13 @@ npx skills add agentkiteco/agent-toolkit-community-exs --skill trading-challenge
 npx skills add agentkiteco/agent-toolkit-community-exs --skill client-welcome-bonus --agent codex
 ```
 
+## Partner Pulse
+
+[Partner Pulse](skills/partner-pulse/SKILL.md) guides development of a private Exness partner portfolio dashboard using the official Exness MCP. It covers verified portfolio analytics, client priorities, onboarding insights, read-only rebates, exports and follow-up message drafts. It supplies implementation instructions, not a prebuilt application; updates use a verified runtime integration or explicitly refreshed private snapshots.
+
+```sh
+npx skills add agentkiteco/agent-toolkit-community-exs --skill partner-pulse --agent codex
+```
+
 [Development](.github/docs/development.md) · [Skill template](.github/templates/example/SKILL.md) · [MIT license](LICENSE)
 
